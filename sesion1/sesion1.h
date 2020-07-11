@@ -19,20 +19,3 @@ bool string_rotation(string s1, string s2);
 list<int> remove_dups(list<int> lista);
 int return_Kth_to_last(int k, list<int> lista);
 list<int> delete_middle_node(int indice, list<int> lista);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//subir el sabado soluciones a omegaup
-//domingo soluciones a git
-//
