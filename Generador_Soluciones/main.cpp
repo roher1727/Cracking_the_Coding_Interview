@@ -5,7 +5,7 @@
 #include "gen_aleatoria.h"
 #include "solucion.h"
 
-#define NUM_CASOS 100
+#define NUM_CASOS 1000
 
 using namespace std;
 
