@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <string>
+#include <list>
 
 using namespace std;
 
@@ -26,3 +27,7 @@ void liberar_arreglo_tri(int n, int ren, int ***arr);
 string cadena_arreglo_uni(int n, int* arr);
 string cadena_arreglo_bi(int r, int c, int **arr);
 string cadena_arreglo_tri(int n, int r, int c, int ***arr);
+
+list<int> lista_enteros_aleatoria(int n);
+list<char>  lista_caracter_aleatoria(int n);
+string lista_int_cadena(list<int> lista);

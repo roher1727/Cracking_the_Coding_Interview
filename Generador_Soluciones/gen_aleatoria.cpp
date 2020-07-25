@@ -119,3 +119,35 @@ string cadena_arreglo_tri(int n, int r, int c, int ***arr){
         s = s + cadena_arreglo_bi(r, c, arr[i]);
     return s;
 }
+
+// Lista aleatoria de enteros
+list<int> lista_enteros_aleatoria(int n){
+    list<int> salida;
+    for(int i = 0; i < n; i++)
+        salida.push_back(entero_aleatorio(1, 100));
+    return salida;
+}
+
+
+// Lista aleatorioa de cadenas
+list<char>  lista_caracter_aleatoria(int n){
+    list<char> salida;
+    for(int i = 0; i < n; i++)
+        salida.push_back(char_aleatorio())
+    return salida;
+}
+
+// Convertir lista a cadena
+string lista_int_cadena(list<int> lista){
+    string cadena = "";
+    for (e : lista){
+        string = string + to_string(e) + " "
+    }
+    cadena.pop_back();
+    return cadena;
+}
+
+// Convertir cadena a lista
+
+
+
